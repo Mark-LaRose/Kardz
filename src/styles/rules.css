@@ -1,7 +1,8 @@
 h3 {
     font-family: 'Dancing Script', cursive;
     font-size: 74px;
-    margin-top: 40px;
+    margin-top: 80px;
+    margin-bottom: 40px;
     color: black;
     text-decoration: underline;
 }
@@ -26,7 +27,7 @@ p {
     margin-right: auto;
 }
 
-.numbered-list {
+.rules-points {
     list-style-type: none;
     text-align: left;
     margin: 20px auto;
@@ -36,7 +37,7 @@ p {
     color: rgb(4, 146, 172);
 }
 
-.numbered-list li {
+.rules-points li {
     font-size: 24px;
     margin-bottom: 8px;
     color: cyan;
@@ -45,7 +46,7 @@ p {
     gap: 5px;
 }
 
-.numbered-list li::before {
+.rules-points li::before {
     content: attr(data-number);
     min-width: 30px;
     text-align: right;

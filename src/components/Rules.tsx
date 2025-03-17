@@ -21,11 +21,11 @@ const Rules: React.FC<Props> = ({ rules }) => {
 
           {/* Numbered list - Game objectives */}
           {rules.points && rules.points.length > 0 && (
-            <ol className="numbered-list">
+            <div className="rules-points">
               {rules.points.map((point, index) => (
-                <li key={index}>{index + 1}) {point}</li>
+                <div key={index} className="rule-item">{point}</div>
               ))}
-            </ol>
+            </div>
           )}
 
           {/* Final paragraph - Extra notes */}

@@ -10,14 +10,14 @@ h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 48px;
     margin-top: -125px;
-    margin-left: -156px;
+    margin-left: -150px;
     color: rgb(255, 255, 255);
 }
 
 header img {
     position: absolute;
     top: 220px;
-    right: 36px;
+    right: 26px;
     width: 500px;
     height: auto;
     z-index: -1;
