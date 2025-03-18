@@ -7,3 +7,19 @@
 body {
   background-color: #044f6d;
 }
+
+/* Large Devices (Desktops, up to 1200px) */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices (Tablets/Laptops, up to 992px) */
+@media only screen and (max-width: 992px) {
+}
+
+/* Small Devices (Tablets, up to 768px) */
+@media only screen and (max-width: 768px) {
+}
+
+/* Extra Small Devices (Phones, up to 576px) */
+@media only screen and (max-width: 576px) {
+}

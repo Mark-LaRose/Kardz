@@ -54,6 +54,13 @@ const games = [
     },
   },
   {
+    name: 'Dice',
+    rules: {
+      description: 'Dice is a game for multiple players using six dice, with the objective to roll the dice and manage your score based on the total rolled. Roll all six dice, aiming to score over 30 points per roll (e.g., a roll of 27 goes down by 3). Each roll, you have the option to keep at least one die to bank its value and try again with the remaining dice. If you go over 30, you roll all the dice again and try to get the total you want over 30 (e.g., 32 would roll to collect 2s). If a player ahead of you goes down by the number of rolls (e.g., 2s would be 2 points), you advance by that amount. After each roll, your score adjusts based on the outcome: over 30 moves you forward, under 30 moves you backward by the difference. The game continues until a player reaches 0; when you get to 0, youre out. Rolling over 30 moves you forward by the amount over 30 (e.g., rolling 32 moves you forward by 2), while rolling under 30 moves you backward by the difference (e.g., rolling 27 when aiming for over 30 moves you back by 3). Advancing occurs if a player ahead goes down by their number of rolls (e.g., 2 rolls = 2 points), you move forward by that amount, and reaching 0 results in elimination.',
+      extraNote: 'The objective of the game is to be the last player remaining by strategically rolling to exceed 30 points per turn while avoiding elimination at 0. Players aim to bank points with each roll, adjust their position based on others rolls, and outlast all opponents until only one player remains.',
+    },
+  },
+  {
     name: 'Pass the Ace',
     rules: {
       description: 'Pass the Ace is a card game for 3 or more players using a standard deck of cards. Deal 1 card facedown to each player, and each player has the option to pass their card or stay. If you have a King, you must pass unless a player can’t pass to you, and the card goes around the table; a facedown card gets an X. If you have 3 Aces in a turn and you don’t face up, then you’re out, with the last player standing winning. Receiving an X on a facedown card marks a penalty, but no specific point value is assigned (game ends when only one player remains), and surviving with 3 Aces without facing up results in elimination. ',

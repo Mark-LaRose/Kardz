@@ -6,3 +6,82 @@
 .dropdown-label {
     font-size: 24px;
 }
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Large Devices (Desktops, up to 1200px) */
+@media only screen and (max-width: 1200px) {
+    #game-select {
+        font-size: 28px;
+        margin-top: 60px;
+        margin-left: 200px;
+    }
+    
+    .dropdown-label {
+        font-size: 34px;
+        margin-right: -200px;
+    }
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Medium Devices (Tablets/Laptops, up to 992px) */
+@media only screen and (max-width: 992px) {
+    #game-select {
+        font-size: 28px;
+        margin-top: 60px;
+        margin-left: 400px;
+        margin-right: -300px;
+    }
+    
+    .dropdown-label {
+        font-size: 34px;
+        margin-right: -400px;
+    }
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Small Devices (Tablets, up to 768px) */
+@media only screen and (max-width: 768px) {
+    #game-select {
+        font-size: 28px;
+        margin-top: 60px;
+        margin-left: 400px;
+        margin-right: -300px;
+    }
+    
+    .dropdown-label {
+        font-size: 34px;
+        margin-right: -400px;
+    }
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Extra Small Devices (Phones, up to 576px) */
+@media only screen and (max-width: 576px) {
+    #game-select {
+        font-size: 28px;
+        margin-top: 20px;
+        margin-left: 400px;
+        margin-right: -600px;
+    }
+    
+    .dropdown-label {
+        font-size: 34px;
+        margin-right: -400px;
+    }
+}
