@@ -4,8 +4,14 @@ import Dropdown from './components/Dropdown';
 import Rules from './components/Rules';
 import './App.css';
 
+interface Rule {
+  description?: string;
+  points?: string[];
+  extraNote?: string;
+}
+
 function App() {
-  const [rules, setRules] = useState<string | string[]>('');
+  const [rules, setRules] = useState<Rule | null>(null);
 
   return (
     <div className="App">
